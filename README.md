@@ -1,7 +1,7 @@
 # py3status-amdfan
 Python module for monitoring fan RPMs and temperature for `amdgpu` cards in **i3wm** using py3status.
 
-[![Downloads](https://static.pepy.tech/personalized-badge/py3status-http-monitor?period=total&units=international_system&left_color=blue&right_color=green&left_text=Downloads)](https://pepy.tech/project/py3status-http-monitor)
+[![Downloads](https://static.pepy.tech/personalized-badge/py3status-amdfan?period=total&units=international_system&left_color=blue&right_color=green&left_text=Downloads)](https://pepy.tech/project/py3status-amdfan)
 
 ## Screenshot
 ![Status Bar with py3status_amdfan](https://raw.githubusercontent.com/mcgillij/py3status-amdfan/main/images/py3status-amdfan.png)
