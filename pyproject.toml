@@ -7,7 +7,7 @@ license = "MIT"
 readme = "README.md"
 homepage = "https://github.com/mcgillij/py3status-amdfan"
 repository = "https://github.com/mcgillij/py3status-amdfan"
-documentation = "https://github.com/mcgillij/py3status-madfan"
+documentation = "https://github.com/mcgillij/py3status-amdfan"
 keywords = ["amdgpu", "monitor", "fan", "i3", "py3status"]
 include = [ "LICENSE", ]
 
@@ -17,6 +17,7 @@ classifiers = [
     "Operating System :: POSIX :: Linux",
     "Topic :: Desktop Environment :: Window Managers",
     "Topic :: System :: Monitoring",
+    "Topic :: System :: Hardware",
 ]
 
 [tool.poetry.plugins."py3status"]
