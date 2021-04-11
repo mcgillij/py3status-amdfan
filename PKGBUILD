@@ -10,9 +10,8 @@ license=('MIT')
 depends=('python' 'py3status' 'amdfan')
 makedepends=('python-setuptools')
 url="https://github.com/mcgillij/py3status-amdfan"
-source=("py3status-amdfan-0.1.0.tar.gz")
-#source=("https://github.com/mcgillij/py3status-amdfan/releases/download/0.1.0/py3status-amdfan-0.1.0.tar.gz")
-md5sums=('8dd013852f7037d1b32d55c4799a037b')
+source=("https://github.com/mcgillij/py3status-amdfan/releases/download/0.1.0/py3status-amdfan-0.1.0.tar.gz")
+md5sums=('29a3049752241334ab2fa8e7ef9ae28f')
 
 build() {
   cd "$srcdir/$pkgname-$pkgver"
