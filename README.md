@@ -21,7 +21,7 @@ Python module for monitoring fan RPMs and temperature for `amdgpu` cards in **i3
 git clone https://github.com/mcgillij/py3status-amdfan.git
 cd py3status-amdfan && poetry install
 mkdir -p ~/.i3/py3status && cd ~/.i3/py3status
-ln -s <PATH_TO_CLONED_REPO>/src/py3status-amdfan/fan_monitor.py ./
+ln -s <PATH_TO_CLONED_REPO>/src/py3status_amdfan/fan_monitor.py ./
 ```
 
 ### With Pip, Pipenv or Poetry
