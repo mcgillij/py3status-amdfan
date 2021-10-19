@@ -1,0 +1,1 @@
+makechrootpkg -c -r $HOME/chroot -I amdfan-0.1.12-1-any.pkg.tar.zst
