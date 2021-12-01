@@ -32,6 +32,12 @@ pipenv install py3status-amdfan amdfan
 poetry add py3status-amdfan amdfan && poetry install
 ```
 
+### With `yay`
+
+``` bash
+yay -S py3status-amdfan amdfan
+```
+
 ### Building Arch package w/PKGBUILD
 
 ``` bash
