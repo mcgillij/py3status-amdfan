@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "py3status-amdfan"
-version = "0.1.6"
-description = "py3status monitor show amdgpu fan speeds and temp"
+version = "0.1.7"
+description = "py3status monitor to show amdgpu fan speeds and temp"
 authors = ["mcgillij <mcgillivray.jason@gmail.com>"]
 license = "MIT"
 readme = "README.md"
@@ -9,7 +9,7 @@ homepage = "https://github.com/mcgillij/py3status-amdfan"
 repository = "https://github.com/mcgillij/py3status-amdfan"
 documentation = "https://github.com/mcgillij/py3status-amdfan"
 keywords = ["amdgpu", "monitor", "fan", "i3", "py3status"]
-include = [ "LICENSE", ]
+#packages = [{include = "py3status_amdfan"}]
 
 classifiers = [
     "Environment :: X11 Applications",
@@ -24,15 +24,16 @@ classifiers = [
 module = "py3status_amdfan.fan_monitor"
 
 [tool.poetry.dependencies]
-python = "^3.9 || ^3.10"
-py3status = "^3.40"
-amdfan = "^0.1.18"
+python = "^3.10"
+py3status = "^3.47"
+amdfan = "^0.1.21"
 
-[tool.poetry.dev-dependencies]
-black = "^20.8b1"
-pylint = "^2.7.2"
-flake8 = "^3.8.4"
+
+[tool.poetry.group.dev.dependencies]
+black = "^22.12.0"
+pylint = "^2.15.9"
+flake8 = "^6.0.0"
 
 [build-system]
-requires = ["poetry-core>=1.0.0"]
+requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
