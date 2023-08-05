@@ -7,7 +7,7 @@ from amdfan.amdfan import Scanner
 
 class Py3status:
     cache_timeout = 5
-    card = "card0"
+    card = "card1"
     format = "{card}: 🌬️{fan_speed} / {gpu_temp}℃🌡️"
 
     def _get_fan_info(self):
