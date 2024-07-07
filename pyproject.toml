@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "py3status-amdfan"
-version = "0.1.14"
+version = "0.1.15"
 description = "py3status monitor show amdgpu fan speeds and temp"
 authors = ["mcgillij <mcgillivray.jason@gmail.com>"]
 license = "MIT"
@@ -23,9 +23,9 @@ classifiers = [
 module = "py3status_amdfan.fan_monitor"
 
 [tool.poetry.dependencies]
-python = "^3.10 || ^3.11 || ^3.12"
+python = "^3.11 || ^3.12"
 py3status = "^3.40"
-amdfan = "^0.2.0"
+amdfan = "^0.2.1"
 
 
 [tool.poetry.group.dev.dependencies]

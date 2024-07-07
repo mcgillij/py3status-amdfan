@@ -2,7 +2,7 @@
 """
 Module to display the fan speed and temperature of a amdgpu card
 """
-from amdfan.amdfan import Scanner
+from amdfan.controller import Scanner
 
 
 class Py3status:
